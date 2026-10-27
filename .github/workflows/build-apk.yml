@@ -20,10 +20,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-
-      - name: Cai Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Cai Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
